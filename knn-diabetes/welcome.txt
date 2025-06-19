@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Selamat Datang</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #e3f2fd, #bbdefb);
+            padding-top: 100px;
+        }
+
+        h1 {
+            font-size: 32px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #1976d2;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #0d47a1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sistem Prediksi Risiko Diabetes</h1>
+    <p>Berbasis Website dengan Metode K-Nearest Neighbors (K-NN)</p>
+    <button onclick="location.href='login.html'">Masuk</button>
+</body>
+</html>

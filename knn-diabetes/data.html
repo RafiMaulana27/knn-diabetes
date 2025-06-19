@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Training & Kriteria</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #e3f2fd;
+            padding: 40px;
+            color: #0d47a1;
+        }
+
+        .container {
+            max-width: 950px;
+            margin: auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #1565c0;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #1976d2;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f1f8ff;
+        }
+
+        h3 {
+            margin-top: 30px;
+            color: #1976d2;
+        }
+
+        ul {
+            font-size: 16px;
+            margin-left: 20px;
+        }
+
+        a {
+            display: block;
+            margin-top: 30px;
+            text-align: center;
+            text-decoration: none;
+            background-color: #1976d2;
+            color: white;
+            padding: 10px 25px;
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 8px;
+        }
+
+        a:hover {
+            background-color: #0d47a1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Data Training (Dummy)</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Glukosa</th>
+                    <th>Tekanan</th>
+                    <th>BMI</th>
+                    <th>Usia</th>
+                    <th>Riwayat</th>
+                    <th>Poliuria</th>
+                    <th>Polidipsia</th>
+                    <th>Polifagia</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td>140</td><td>90</td><td>32</td><td>45</td><td>5</td><td>5</td><td>3</td><td>3</td><td>Tinggi</td></tr>
+                <tr><td>2</td><td>110</td><td>80</td><td>24</td><td>30</td><td>1</td><td>1</td><td>1</td><td>1</td><td>Rendah</td></tr>
+                <tr><td>3</td><td>130</td><td>85</td><td>28</td><td>40</td><td>3</td><td>3</td><td>3</td><td>3</td><td>Sedang</td></tr>
+                <tr><td>4</td><td>160</td><td>100</td><td>35</td><td>55</td><td>5</td><td>5</td><td>5</td><td>5</td><td>Tinggi</td></tr>
+            </tbody>
+        </table>
+
+        <h3>Kriteria & Bobot Penilaian</h3>
+        <ul>
+            <li>Glukosa Darah: <strong>1 - 5</strong></li>
+            <li>Tekanan Darah: <strong>1 - 5</strong></li>
+            <li>Indeks Massa Tubuh (BMI): <strong>1 - 5</strong></li>
+            <li>Usia: <strong>1 - 5</strong></li>
+            <li>Riwayat Keluarga: <strong>1 - 5</strong></li>
+            <li>Gejala Poliuria, Polidipsia, Polifagia: <strong>1 - 5</strong></li>
+        </ul>
+
+        <a href="home.php">Kembali ke Beranda</a>
+    </div>
+</body>
+</html>

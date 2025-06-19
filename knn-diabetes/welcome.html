@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Selamat Datang</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            background-image: linear-gradient(rgba(21, 101, 192, 0.6), rgba(21, 101, 192, 0.6)),
+                              url(images/dokter.jpg);
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .content {
+            text-align: center;
+            background-color: rgba(0,0,0,0.4);
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+            max-width: 600px;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        a.button {
+            padding: 12px 30px;
+            background-color: #2196f3;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        a.button:hover {
+            background-color: #0d47a1;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Sistem Prediksi Risiko Diabetes</h1>
+        <p>Berbasis Website dengan Metode K-Nearest Neighbors (K-NN)</p>
+        <a href="login.html" class="button">Masuk</a>
+    </div>
+</body>
+</html>
